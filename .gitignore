@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.docx
+local-review/
+playwright-artifacts/

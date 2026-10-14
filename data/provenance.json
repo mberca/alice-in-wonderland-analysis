@@ -1,0 +1,18 @@
+{
+  "work": "Alice's Adventures in Wonderland",
+  "author": "Lewis Carroll",
+  "first_publication": 1865,
+  "source": "Project Gutenberg",
+  "ebook": 11,
+  "source_url": "https://www.gutenberg.org/ebooks/11",
+  "edition": "The Millennium Fulcrum Edition 3.0",
+  "source_header_release": "March 1994",
+  "source_header_posting": "June 25, 2008",
+  "source_header_last_updated": "December 20, 2011",
+  "acquisition": "User-supplied local copy; preserved byte-for-byte, not redownloaded.",
+  "filename": "alice-gutenberg-11.txt",
+  "sha256": "0fc5533d17050c71c49dab56c54adcc1cdda1d10c15e0ab2f2b68df10c538ed4",
+  "bytes": 167512,
+  "text_rights": "Original novel is public domain in the United States. The supplied Gutenberg edition retains its complete licence and trademark terms. Check applicable local law.",
+  "analysis_boundary": "Chapter bodies I-XII only; exclude front matter, chapter headings, THE END, end-of-ebook credit, and licence."
+}

@@ -1,0 +1,3 @@
+* text=auto eol=lf
+data/alice-gutenberg-11.txt -text
+*.png binary
