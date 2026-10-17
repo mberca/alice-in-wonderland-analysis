@@ -2,6 +2,12 @@
 
 ### Two words, a Python dictionary, and a very curious book.
 
+<p align="center">
+  <a href="https://mberca.github.io/alice-in-wonderland-analysis/">
+    <img src="docs/assets/wonderland-cover.png" width="420" alt="Wonderland, Measured: a gold keyhole frames Rabbit word counts across twelve chapters, with Alice watching a rabbit enter a glowing passage. Visit the interactive reading room.">
+  </a>
+</p>
+
 I wrote the first version for a programming project in 2013/14. It counted
 **Alice** and **Rabbit** in a text file, then explored character counting with
 **MapReduce**. A small question, but a good place to start.
@@ -12,8 +18,6 @@ all the way back to the text—or just stop for a little tea.
 
 Underneath, this is a **reproducible Python 3 text-analysis project**: explicit
 counting rules, source provenance, JSON/CSV evidence, and focused tests.
-
-![Wonderland, Measured: the literary-data story and original counting question](docs/assets/showcase.png)
 
 **[Visit the reading room](https://mberca.github.io/alice-in-wonderland-analysis/)** · **[Offline HTML](docs/index.html)** · **[Methodology](METHODOLOGY.md)** ·
 **[From the original project](EVOLUTION.md)** · **[Source and rights](data/README.md)**
@@ -52,6 +56,8 @@ case-folded word forms**, and **12 chapters** under the documented tokenisation.
 Counts are word-form occurrences, **not resolved character identities**.
 
 ## A few ways to wander
+
+![The interactive reading room: the literary-data story and original counting question](docs/assets/showcase.png)
 
 | Lens | What it adds |
 |---|---|
