@@ -242,6 +242,18 @@ class ProjectTests(unittest.TestCase):
             payload = page[page.index(">") + 1:page.rindex("</script>")]
             self.assertEqual(json.loads(payload)["analysis"], hostile)
 
+    def test_story_has_one_embedded_decorative_rabbit(self):
+        page = render_story(self.result, self.evidence, ROOT / "web" / "story.html")
+        self.assertEqual(page.count('class="hero-rabbit"'), 1)
+        start = page.index('<svg class="hero-rabbit"')
+        end = page.index("</svg>", start)
+        rabbit = page[start:end]
+        self.assertIn('aria-hidden="true"', rabbit)
+        self.assertIn('focusable="false"', rabbit)
+        self.assertIn('fill="currentColor"', rabbit)
+        self.assertIn("<path ", rabbit)
+        self.assertNotIn("href=", rabbit)
+
     def test_build_is_reproducible_and_check_detects_a_stale_output(self):
         with tempfile.TemporaryDirectory() as folder:
             output, site = Path(folder) / "outputs", Path(folder) / "index.html"
